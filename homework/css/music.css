@@ -1,0 +1,425 @@
+body {
+	font-family: "微软雅黑", "宋体", Arial, "times New Roman", sans-serif;
+	margin: 0;
+	padding: 0
+}
+.container {
+	width: 720px;
+	margin: 0 auto;
+}
+.head {
+	width: 720px;
+	height: 56px;
+	background-color: #d5534c;
+	color: #fff;
+}
+.head span {
+	font-size: 20px;
+	line-height: 56px;
+	padding-left: 30px;
+}
+#backstage {
+	font-size: 16px;
+	padding: 0;
+}
+.ul_container {
+	width: 113px;
+	height: 768px;
+	background-color: #272f2f;
+	float: left;
+	margin:0;
+}
+/*.list {
+	margin-top: 30px;
+}*/
+.list li {
+	width: 103px;
+	height: 47px;
+	list-style: none;
+	color: #fff;
+	margin-left: -40px;
+	padding-left: 10px;
+	line-height: 47px;
+
+}
+.list a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/music/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/music/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/music/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/music/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/music/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/horn/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/horn/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/horn/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/horn/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/horn/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/data/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/data/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/data/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/data/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/data/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/upload/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/upload/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/upload/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/upload/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/upload/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/set_up/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/set_up/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/set_up/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/set_up/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/set_up/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.act {
+	background-color: #1d2125;
+}
+.list li:hover {
+	background-color: #1d2125;
+}
+.list li:active {
+	background-color: #1d2125;
+}
+.right {
+	width: 607px;
+	height: 768px;
+	float: left;
+}
+.right div {
+	width: 607px;
+	height: 768px;
+}
+.hide {
+	display: none;
+}
+#upload_left {
+	width: 295px;
+	height: 362px;
+	position: relative;
+	float: left;
+}
+#all,
+#contact {
+	font-size: 14px;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+#upload_left > table {
+	margin-left: 28px;
+	font-size: 12px;
+	border: none;
+	color: #666666;
+	margin-top: 10px;
+}
+.ta_input {
+	width: 142px;
+	height: 20px;
+	border: 1px #e8e8e8 solid;
+	border-radius: 4px;
+	margin-left: 15px;
+	padding-left: 10px;
+	color: #666;
+}
+#upload_left tr {
+	height: 37px;
+}
+#all_input {
+	width: 120px;
+	border-right-color: #fff;
+}
+#up_file {
+	display:inline-block; 
+	width:22px; 
+	height: 16px; 
+	position:relative; 
+	overflow:hidden;
+	text-decoration: none;
+	color: #e8e8e8;
+	border: 1px #e8e8e8 solid;
+	padding-bottom: 5px;
+	padding-top: -5px;
+	float: right;
+	margin-top: -33px;
+	margin-right: 43px;
+	font-size: 15px;
+/*	font-size: 20px;*/
+/*	vertical-align: middle;*/
+}
+#file_input {
+	position:absolute; 
+	right:0; 
+	top:0; 
+	font-size:100px; 
+	opacity:0; 
+	filter:alpha(opacity=0);
+}
+.file_size1 {
+	font-size: 10px;
+	color: #999;
+	margin: 0;
+	margin-left: 30px;
+	margin-top: -6px;
+}
+#upload_button {
+	width: 74px;
+	height: 28px;
+	background-color: #d54d46;
+	color: #fff;
+	vertical-align: middle;
+	border: none;
+	float: right;
+	margin-top: 10px;
+	margin-right: 44px;
+	border-radius: 4px;
+}
+#upload_right {
+	width: 264px;
+	height: 362px;
+	float: left;
+}
+#touxiang {
+	width: 88px;
+	height: 88px;
+	margin-left: 105px;
+	border: 1px #e8e8e8 solid;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+#heng {
+	width: 45px;
+	height: 0;
+	border: 3px #e8e8e8 solid;
+	border-radius: 4px;
+	margin:0 auto;
+	vertical-align: middle;
+	margin-top: 41px;
+}
+#shu {
+	width: 0;
+	height: 45px;
+	border: 3px #e8e8e8 solid;
+	border-radius: 4px;
+	margin:0 auto;
+	margin-top: -27px;
+}
+#select1,
+#select2 {
+	width: 262px;
+	height: 90px;
+	border: 1px #e8e8e8 solid;
+
+}
+#select2 {
+	margin-top: 16px;
+}
+#contact {
+	padding: 0;
+}
+.song_select {
+	color: #666666;
+	font-size: 12px;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+.song_input {
+	width: 170px;
+	height: 20px;
+	border: 1px #e8e8e8 solid;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.file_size2 {
+	font-size: 10px;
+	color: #999;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: -10px;
+	display: inline-block;
+
+}
+/*#select1 p {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}*/
+.select_now {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.sele {
+	width: 148px;
+	height: 22px;
+	border: 1px #e8e8e8 solid;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+#add {
+	width: 262px;
+	height: 93px;
+	border: 1px #e8e8e8 dashed;
+	margin-top: 15px;
+	background-color: #f8f8f8;
+}
+#add > p {
+	color: #d25045;
+	display: inline-block;
+	margin-left: 140px;
+	font-size: 12px;
+	float: left;
+	margin-top: -18px;
+}
+#red_heng {
+	width: 16px;
+	height: 0;
+	border: 1px #d25045 solid;
+	margin-top: 45px;
+	margin-left: 110px;
+
+}
+#red_shu {
+	width: 0;
+	height: 16px;
+	border: 1px #d25045 solid;
+	margin-left: 118px;
+	margin-top: -9px;
+}
+#upload_bottom {
+	width: 607px;
+	height: 375px;
+	margin-top: 30px;
+	float: left;
+	cursor: pointer;
+}
+.past_program {
+	font-size: 14px;
+	color: #333333;
+	padding-left: 30px;
+}
+.program_infor {
+	background-color: #eeeded;
+	padding: 5px;
+	padding-left: 30px;
+	font-size: 12px;
+	color: #323232;
+}
+.program_infor > span {
+	padding-right: 60px;
+}
+.pro_list {
+	padding: 0;
+	margin: 0;
+	margin-top: -8px;
+	position: relative;
+}
+.pro_list ul {
+	display: block;
+	padding: 0;
+	position: absolute;
+	display: none;
+	background-color: #f8f8f8;
+}
+.pro_list li {
+	list-style: none;
+	font-size: 12px;
+	color: #666;
+	cursor: pointer;
+	line-height: 20px;
+}
+.pro_list li:hover {
+	background-color: #f8f8f8;
+}
+.pro_list li:hover > ul {
+	display: block;
+}
+/*.pro_list li:hover > #triangle1 {
+	transform: rotate(90deg);
+}*/
+.pro_infor {
+	width: 107px;
+	text-align: center;
+}
+.pro_list hr {
+	margin: 0;
+	margin-top: 2px;
+}
+#triangle1,
+#triangle2,
+#triangle3,
+#triangle4,
+#triangle5,
+#triangle6,
+#triangle7,
+#triangle8 {
+	width: 0;
+	height: 0;
+	border-width: 10px 10px 0px 10px;
+	border-color: #d74e43 transparent;
+	border-style: solid;
+	margin: 0 auto;
+}
+.song_infor {
+	width: 200px;
+	padding-left: 25px;
+}
+#footer {
+	width: 220px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #d74e43;
+	font-size: 20px;
+}
+#footer span {
+	float: left;
+}
+#number1,
+#number2,
+#number3,
+#number4 {
+	width: 22px;
+	height: 22px;
+	border:1px #e8e8e8 solid;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 15px;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+}
+#number1 {
+	margin-left: 12px;
+}
+#number3 {
+	background-color: #d25045;
+	color: #fff;
+	border: none;
+}
+.pro_list tr:hover div {
+	transform: rotate(180deg);
+}

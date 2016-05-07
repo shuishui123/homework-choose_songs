@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>重邮点歌台</title>
+	<link rel="stylesheet" type="text/css" href="../css/music.css">
+</head>
+<body>
+	<div class="container">
+		<div class="head">
+			<span>重邮点歌台 |</span>
+			<span id="backstage"> 管理后台</span>
+		</div>
+
+		<div class="ul_container">
+			<ul class="list">
+				<li>
+					<i class="iconfont">&#xf0066;</i>
+					<a href="#"> &nbsp;歌曲管理</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe6d1;</i>
+					<a href="#"> &nbsp;公告管理</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe61c;</i>
+					<a href="#"> &nbsp;数据分析</a>
+				</li>
+				<li class="act">
+					<i class="iconfont">&#xe617;</i>
+					<a href="#"> &nbsp;节目上传</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xf0051;</i>
+					<a href="#"> &nbsp;违规设置</a>
+				</li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="hide">1</div>
+			<div class="hide">2</div>
+			<div class="hide">3</div>
+			<div>
+				<div id="upload_left">
+					<p id="all">整期节目</p>
+					<div id="touxiang">
+						<div id="heng"></div>
+						<div id="shu"></div>
+					</div>
+					<table>
+						<tr>
+							<td>节目名称</td>
+							<td><input type="text" name="" value="" class="ta_input"></td>
+						</tr>
+						<tr>
+							<td>主播信息</td>
+							<td><input type="text" name="" value="" class="ta_input"></td>
+						</tr>
+						<tr>
+							<td>播出时间</td>
+							<td><input type="text" name="" value="" class="ta_input"></td>
+						</tr>
+						<tr>
+							<td>整期节目</td>
+							<td><input type="text" name="" value="" class="ta_input" id="all_input"></td>
+							
+						</tr>
+					</table>
+					<a href="#" id="up_file">· · ·
+						<input type="file" name="" value="" id="file_input">
+					</a>
+					<p class="file_size1">文件大小</p>
+					<button id="upload_button">上传</button>
+				</div>
+				<div id="upload_right">
+					<p id="contact">包含内容</p>
+					<div id="select1">
+							<span class="song_select">选择歌曲</span>
+
+							<span>
+								<input type="text" name="" value="" class="song_input">
+							</span>
+							<span class="file_size2">文件大小：</span>
+							<br>
+							<span class="select_now">选择最近点播</span>
+							<span>
+								<select class="sele">
+									<option></option>
+								</select>
+							</span>
+
+					</div>
+					<div id="select2">
+						<span class="song_select">选择歌曲</span>
+
+							<span>
+								<input type="text" name="" value="" class="song_input">
+							</span>
+							<span class="file_size2">文件大小：</span>
+							<br>
+							<span class="select_now">选择最近点播</span>
+							<span>
+								<select class="sele">
+									<option></option>
+								</select>
+							</span>
+					</div>
+					<div id="add">
+						<div id="red_heng"></div>
+						<div id="red_shu"></div>
+						<p>添加</p>
+					</div>
+				</div>
+
+				<div id="upload_bottom">
+					<p class="past_program">往期节目</p>
+					<p class="program_infor">
+						<span>节目名称</span>
+						<span>主播信息</span>
+						<span>播出时间</span>
+						<span>文件大小</span>
+						<span>所含歌曲</span>
+					</p>
+					<ul class="pro_list">
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle1"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>
+						</li>						
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle2"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle3"></div>
+									</td>
+								</tr>
+							</table>
+							<ul>
+								<li>
+									<hr>
+									<table>
+										<tr>
+											<td class="song_infor">歌曲名：相依为命</td>
+											<td class="song_infor">演唱者：陈小春</td>
+											<td class="song_infor">文件大小：2.4M</td>
+										</tr>
+									</table>
+									<hr>
+								</li>
+								<li>
+									<table>
+										<tr>
+											<td class="song_infor">歌曲名：富士山下</td>
+											<td class="song_infor">演唱者：陈奕迅</td>
+											<td class="song_infor">文件大小：3.4M</td>
+										</tr>
+									</table>
+									<hr>
+								</li>
+								<li>
+									<table>
+										<tr>
+											<td class="song_infor">歌曲名：富士山下</td>
+											<td class="song_infor">演唱者：陈奕迅</td>
+											<td class="song_infor">文件大小：3.4M</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</li>
+						<hr>
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle4"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>
+						
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle5"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle6"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle7"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td class="pro_infor">新学期迎新</td>
+									<td class="pro_infor">小二黑</td>
+									<td class="pro_infor">2016-02-01</td>
+									<td class="pro_infor">22.2M</td>
+									<td class="pro_infor">
+										<div id="triangle8"></div>
+									</td>
+								</tr>
+							</table>
+						<hr>	
+						</li>							
+					</ul>
+					<div id="footer">
+						<span><</span>
+						<div id="number1">1</div>
+						<div id="number2">2</div>
+						<div id="number3">3</div>
+						<div id="number4">4</div>
+						<span>></span>
+					</div>
+				</div>
+			</div>
+			<div class="hide">5</div>
+		</div>
+		
+	</div>
+
+	<script>
+		;(function() {
+			var li = document.querySelectorAll('.list li');
+			var div = document.querySelectorAll('.right > div');
+			var num = li.length;
+			var i;
+			for(i = 0; i < num; i ++) {
+				li[i].index = i;
+				li[i].addEventListener("click", function() {
+					for(i = 0; i < num; i ++) {
+						li[i].className = "";
+						div[i].className = "hide";
+					}
+					li[this.index].className = "act";
+					div[this.index].className = "";
+
+				})
+
+			}
+		}());
+
+		
+	</script>
+</body>
+</html>
